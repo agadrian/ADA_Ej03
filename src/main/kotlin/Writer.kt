@@ -1,10 +1,7 @@
 package org.example
 
 import org.w3c.dom.Document
-import org.w3c.dom.Element
-import org.w3c.dom.NodeList
 import java.nio.file.Path
-import javax.xml.parsers.DocumentBuilder
 import javax.xml.parsers.DocumentBuilderFactory
 import javax.xml.transform.OutputKeys
 import javax.xml.transform.Source
@@ -15,6 +12,10 @@ import javax.xml.transform.stream.StreamResult
 
 class Writer(private val path: Path) {
 
+    /**
+     * Crea un fichero XML a partir de una lista de Empleados
+     * @param listaEmpleados: Lista mutable de empleados
+     */
     fun createXML(listaEmpleados: MutableList<Empleado>){
         // 1º Instanciamos la clase DocumentBuilderFactory
         val factory = DocumentBuilderFactory.newInstance()
@@ -72,6 +73,14 @@ class Writer(private val path: Path) {
 
     }
 
+
+    /**
+     * Edita el salario de un empleado con una ID en concreto, si no existe la ID
+     * @param id: Id del empleado a editar
+     * @param newSalary: Valor del nuevo salario deseado
+     * @param fileXML: Listado de los empleados
+     * @return fileXML: Una lista mutable de empleados, tras ser modificada en caso de existir dicha ID
+     */
     fun editXML(id: Int, newSalary: Double, fileXML: MutableList<Empleado>): MutableList<Empleado> {
         // Find para obtener el empleado con esa ID
         val empleado = fileXML.find { it.id == id }
