@@ -96,14 +96,14 @@ class XMLRepository {
             throw Exception("Ruta XML no existe")
         }
 
-        val listaEmpleados = Reader(rutaXML).readXml(rutaXML)
+        val listaEmpleados = Reader().readXml(rutaXML)
         val empleadoID = listaEmpleados.find { it.id == id.toInt() }
         if (empleadoID != null){
             val pos = listaEmpleados.indexOf(empleadoID)
             listaEmpleados.removeAt(pos)
 
             //Crear el XML con el elemento borrado
-            Writer(rutaXML).createXML(listaEmpleados, "src/main/resources/empleadosCRUD.xml")
+            Writer().createXML(listaEmpleados, rutaXML)
         }
 
 

@@ -9,20 +9,15 @@ import java.nio.file.Path
 import javax.xml.parsers.DocumentBuilder
 import javax.xml.parsers.DocumentBuilderFactory
 
-class Reader(private val path: Path) {
+class Reader() {
 
     private val listaEmpleados = mutableListOf<Empleado>()
-
-    // Al inicializar la clase, es lo segundo que se inicializa, despues de la variable listaEmpleados
-    init {
-        readCsv()
-    }
 
 
     /**
      * Lee un fichero csv y añade a la lista de Empleados, los empleados leidos
      */
-    private fun readCsv(){
+    private fun readCsv(path: Path){
         // Ruta completa hasta el archivo csv
         val fichero = path.resolve("empleados.csv")
 

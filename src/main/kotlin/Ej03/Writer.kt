@@ -10,13 +10,13 @@ import javax.xml.transform.TransformerFactory
 import javax.xml.transform.dom.DOMSource
 import javax.xml.transform.stream.StreamResult
 
-class Writer(private val path: Path) {
+class Writer() {
 
     /**
      * Crea un fichero XML a partir de una lista de Empleados
      * @param listaEmpleados: Lista mutable de empleados
      */
-    fun createXML(listaEmpleados: MutableList<Empleado>, newPath: String){
+    fun createXML(listaEmpleados: MutableList<Empleado>, path: Path){
         // 1º Instanciamos la clase DocumentBuilderFactory
         val factory = DocumentBuilderFactory.newInstance()
 
@@ -59,7 +59,7 @@ class Writer(private val path: Path) {
         val source: Source = DOMSource(document)
 
         // Clase que usaremos para escribir --> StreamResult()
-        val result: StreamResult = StreamResult(path.resolve(newPath).toFile())
+        val result: StreamResult = StreamResult(path.toFile())
 
         // Herramienta que usamos para realizar la transformacion: Transformer
         val transformer: Transformer = TransformerFactory.newInstance().newTransformer()

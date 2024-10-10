@@ -11,5 +11,5 @@ fun main(){
 
     val repository = XMLRepository()
     //repository.insert(emple, ficheroXML)
-    repository.delete("15", ficheroXML)
+    repository.delete("1", ficheroXML)
 }

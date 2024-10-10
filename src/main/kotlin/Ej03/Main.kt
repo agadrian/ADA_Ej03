@@ -6,16 +6,16 @@ import java.nio.file.Path
  */
 
 fun main() {
-    val path = Path.of("src/main/resources")
-    val reader = Reader(path)
-    val writer = Writer(path)
+    val path = Path.of("src/main/resources/empleados.xml")
+    val reader = Reader()
+    val writer = Writer()
 
     // 1. Lectura de empleados desde archivo de texto:
     val listadoEmpleados = reader.getListadoEmpleados()
 
 
     // 2. Generar un archivo XML
-    writer.createXML(listadoEmpleados, "src/main/resources/empleados.xml")
+    writer.createXML(listadoEmpleados, path)
 
 
     // 3. Modificación de un nodo en el archivo XML:
@@ -25,7 +25,7 @@ fun main() {
     // Obtenemos una nueva lista de empleados, con las modificaciones hechas
     val listaModificada = writer.editXML(1, 50.0, empleados)
     // Creamos un nuevo XML con la lista modificada
-    writer.createXML(listaModificada, "src/main/resources/empleados.xml")
+    writer.createXML(listaModificada, pathXml)
 
 
     // 4.Lectura del archivo XML modificado y salida en consola:
