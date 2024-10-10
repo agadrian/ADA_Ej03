@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+                
+    
+    
+    <empleado id="1">
+                                
+        
+        
+        <apellido>Garcia</apellido>
+                                
+        
+        
+        <dep>IT</dep>
+                                
+        
+        
+        <salario>50.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="2">
+                                
+        
+        
+        <apellido>Perez</apellido>
+                                
+        
+        
+        <dep>HR</dep>
+                                
+        
+        
+        <salario>2500.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="3">
+                                
+        
+        
+        <apellido>López</apellido>
+                                
+        
+        
+        <dep>Finance</dep>
+                                
+        
+        
+        <salario>3200.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="4">
+                                
+        
+        
+        <apellido>Moreno</apellido>
+                                
+        
+        
+        <dep>Marketing</dep>
+                                
+        
+        
+        <salario>2900.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="5">
+                                
+        
+        
+        <apellido>Ramirez</apellido>
+                                
+        
+        
+        <dep>Sales</dep>
+                                
+        
+        
+        <salario>2800.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="6">
+                                
+        
+        
+        <apellido>Hernandez</apellido>
+                                
+        
+        
+        <dep>IT</dep>
+                                
+        
+        
+        <salario>3500.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="7">
+                                
+        
+        
+        <apellido>Gomez</apellido>
+                                
+        
+        
+        <dep>HR</dep>
+                                
+        
+        
+        <salario>2400.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="8">
+                                
+        
+        
+        <apellido>Molina</apellido>
+                                
+        
+        
+        <dep>Finance</dep>
+                                
+        
+        
+        <salario>3300.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="9">
+                                
+        
+        
+        <apellido>Blanco</apellido>
+                                
+        
+        
+        <dep>Marketing</dep>
+                                
+        
+        
+        <salario>3100.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="10">
+                                
+        
+        
+        <apellido>Fernandez</apellido>
+                                
+        
+        
+        <dep>Sales</dep>
+                                
+        
+        
+        <salario>2700.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="11">
+                                
+        
+        
+        <apellido>Sanchez</apellido>
+                                
+        
+        
+        <dep>IT</dep>
+                                
+        
+        
+        <salario>4000.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="12">
+                                
+        
+        
+        <apellido>Ruiz</apellido>
+                                
+        
+        
+        <dep>HR</dep>
+                                
+        
+        
+        <salario>2600.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="13">
+                                
+        
+        
+        <apellido>Martinez</apellido>
+                                
+        
+        
+        <dep>Finance</dep>
+                                
+        
+        
+        <salario>3400.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="14">
+                                
+        
+        
+        <apellido>Ortega</apellido>
+                                
+        
+        
+        <dep>Marketing</dep>
+                                
+        
+        
+        <salario>2950.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="15">
+                                
+        
+        
+        <apellido>Vega</apellido>
+                                
+        
+        
+        <dep>Sales</dep>
+                                
+        
+        
+        <salario>2850.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="16">
+                                
+        
+        
+        <apellido>Mendez</apellido>
+                                
+        
+        
+        <dep>IT</dep>
+                                
+        
+        
+        <salario>3750.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="17">
+                                
+        
+        
+        <apellido>Delgado</apellido>
+                                
+        
+        
+        <dep>HR</dep>
+                                
+        
+        
+        <salario>2550.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="18">
+                                
+        
+        
+        <apellido>Castillo</apellido>
+                                
+        
+        
+        <dep>Finance</dep>
+                                
+        
+        
+        <salario>3500.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="19">
+                                
+        
+        
+        <apellido>Benitez</apellido>
+                                
+        
+        
+        <dep>Marketing</dep>
+                                
+        
+        
+        <salario>3000.0</salario>
+                            
+    
+    
+    </empleado>
+                
+    
+    
+    <empleado id="20">
+                                
+        
+        
+        <apellido>Alvarez</apellido>
+                                
+        
+        
+        <dep>Sales</dep>
+                                
+        
+        
+        <salario>2750.0</salario>
+                            
+    
+    
+    </empleado>
+</empleados>

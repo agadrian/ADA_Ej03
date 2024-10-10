@@ -1,4 +1,4 @@
-package org.example
+package org.example.Ej03
 import java.nio.file.Path
 
 /**
@@ -15,7 +15,7 @@ fun main() {
 
 
     // 2. Generar un archivo XML
-    writer.createXML(listadoEmpleados)
+    writer.createXML(listadoEmpleados, "src/main/resources/empleados.xml")
 
 
     // 3. Modificación de un nodo en el archivo XML:
@@ -25,7 +25,7 @@ fun main() {
     // Obtenemos una nueva lista de empleados, con las modificaciones hechas
     val listaModificada = writer.editXML(1, 50.0, empleados)
     // Creamos un nuevo XML con la lista modificada
-    writer.createXML(listaModificada)
+    writer.createXML(listaModificada, "src/main/resources/empleados.xml")
 
 
     // 4.Lectura del archivo XML modificado y salida en consola:

@@ -1,4 +1,4 @@
-package org.example
+package org.example.Ej03
 
 data class Empleado(
     val id: Int,
